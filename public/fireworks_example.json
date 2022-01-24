@@ -1,0 +1,45 @@
+{
+   "FireworkDisplay":[
+   
+		{ 
+			"type":"Rocket",
+			"begin":2000, 
+			"colour":"#FF2020", 
+			"duration":10000, 
+			"positions":{ "x":900, "y":-300 },
+			"velocity":{ "x":-3, "y" :10 } 
+		},
+   
+		{
+		 "type":"Fountain",
+		 "begin":1000,
+		 "colour":"#ffc0cb",
+		 "duration":5000,
+		 "positions":{
+			"x": 300,
+			"y":-384
+		 }
+		},
+	  
+		{
+		 "type":"Fountain",
+		 "begin":1000,
+		 "colour":"#87cd00",
+		 "duration":5000,
+		 "positions":{
+			"x":300,
+			"y":-384
+		 }
+		},
+		
+		{ 
+			"type":"Rocket",
+			"begin":1000, 
+			"colour":"#ffc0cb", 
+			"duration":5000, 
+			"positions":{ "x":900, "y":-300 },
+			"velocity":{ "x":-3, "y" :-20 } 
+		}
+		
+   ]
+}
