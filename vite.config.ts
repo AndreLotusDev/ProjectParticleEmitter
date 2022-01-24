@@ -1,9 +1,17 @@
 import { defineConfig } from 'vite';
 import replace from '@rollup/plugin-replace';
+import { resolve } from 'path';
 
 export default defineConfig({
   build: {
+    
     rollupOptions: {
+
+      input: {
+        notes: resolve(__dirname, 'notes.html'),
+        main: resolve(__dirname, 'index.html')
+      },
+
       plugins: [
         //  Toggle the booleans here to enable / disable Phaser 3 features:
         replace({
@@ -16,5 +24,6 @@ export default defineConfig({
         })
       ]
     }
-  }
+  },
+  
 });
