@@ -3,6 +3,6 @@
   "clean_urls": true,
   "routes": {
     "/**": "index.html",
-    "/notes.html": "/notes.html"
+    "/notes.html": "notes.html"
   }
 }
