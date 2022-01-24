@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="./node_modules/sweetalert2/dist/sweetalert2.css"/>
+
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+
+    <title>Notes about this project</title>
+</head>
+
+<body>
+    <div class="col-10 mx-auto my-2">
+        <a href="/" class="btn btn-success">Back Main</a>
+    </div>
+
+    <div class="text-center p-3 col-6 m-auto">
+
+        <hr>
+        <h1 class="h1">Notes</h1>
+        <hr>
+
+        <h1 class="h1">W.I.P</h1>
+
+        <ul>
+            <li class="text-danger">This project lacks test (automated tests with JS) / implement in the future</li>
+            <li class="text-danger">Clean the classes and fix the visibility of some properties</li>
+            <li>Make the animations runs perriodically and in an infinite cycle</li>
+            <li>Catch all errors and display in a friendly way to the end user</li>
+            <li>Respect SOLID principle (deatch some unnecessary coupling)</li>
+        </ul>
+
+        <hr>
+
+        <h1 class="h1">Stack Used</h1>
+
+        <div class="mt-5"></div>
+        <p>Vite for debug development and deploy</p><img class="w-25" src="/public/assets/vite-logo.png" alt="">
+        <br>
+        <p>Jquery for listeners and quicky organization (with TS)</p><img class="w-25" src="/public/assets/jquery-logo.png" alt="">
+        <br>
+        <p>Phaser to build friendly WebGL apps</p><img class="w-25" src="/public/assets/phaser3-logo.png" alt="">
+        <br>
+        <p>Typescript to have more control with my code and testability</p><img class="w-25" src="/public/assets/typescript-logo.png" alt="">
+        <br>
+        <p>Bootstrap to build quick and friendly UI</p><img class="w-25" src="/public/assets/bootstrap-logo.png" alt="">
+        <hr>
+
+        <a href="" id="documentation-button" class="m-2 btn btn-warning">Download documentation about the project</a>
+        <a href="" id="talk-with-me-button" class="m-2 btn btn-success">Talk with me</a>
+
+        <a href="" id="json-download-button" class="m-2 btn btn-info">Download a json with an example</a>
+
+    </div>
+</body>
+
+<script>
+
+    $('a#documentation-button').attr({target: '_blank', 
+                    href  : '/Documentation.docx'});
+
+    $('a#json-download-button').attr({target: '_blank', 
+    href  : '/fireworks_example.json'});
+
+    $('a#talk-with-me-button').attr({target: '_blank', 
+                    href  : 'https://wa.me/5541988664960?text=Hello'});
+
+</script>
+
+</html>
