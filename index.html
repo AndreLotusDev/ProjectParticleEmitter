@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>particle Handler</title>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        margin: 0;
+      }
+    </style>
+
+    <script type="module" src="/src/index.ts"></script>
+    <script type="module" src="/src/listener.ts"></script>
+
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="./node_modules/sweetalert2/dist/sweetalert2.css"/>
+
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/sweetalert2/dist/sweetalert2.all.js"></script>
+
+  </head>
+  <body>
+
+    <div class="m-auto col-6 text-center border p-3 mb-4 mt-3">
+      <p>Input your archive here</p>
+      <p>Only allowed json</p>
+      <input id="json-uploader" type="file" accept="application/json">
+    </div>
+
+    <div id="game"></div>
+  </body>
+</html>
